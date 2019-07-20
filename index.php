@@ -1,8 +1,7 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello RedHat Indonesia</p>'; ?> 
- </body>
-</html>
+<?PHP
+$data = '{
+"nama":"lele",
+"alamat":"tangerang"
+}';
+header('Content-Type: application/json');
+echo $data;
